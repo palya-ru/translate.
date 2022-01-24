@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 550px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+textarea{
+    display: block;
+    width: 100%;
+    height: 100px;
+    overflow:hidden;
+    resize: none;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-indent: 0;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.05);
+}
+.btn {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+.btn{
+    margin: 20px 0 0 0;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}

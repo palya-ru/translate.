@@ -1,0 +1,17 @@
+{
+    "name": "vano/translit.ru",
+    "autoload": {
+        "psr-4": {
+            "Vano\\TranslitRu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vano",
+            "email": "alex@palya.ru"
+        }
+    ],
+    "require": {
+        "jbroadway/urlify": "^1.2"
+    }
+}
